@@ -1,38 +1,73 @@
-# sv
+# 🎮 Lelempengan – A Traditional Game from West Java, Reimagined for the Web
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+**Lelempengan** is a digital adaptation of a traditional board game originating from **West Java, Indonesia**. It’s a minimalist 3x3 grid strategy game that emphasizes pattern recognition, planning, and respect for cultural heritage — all recreated with modern web technologies.
 
-## Creating a project
+![screenshot](./images/image.png) <!-- Optional: Add a screenshot of the game here -->
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
+
+## 🔹 Game Rules
+
+* Two players: **🔵 Blue** and **🔴 Red**
+* Each player has **3 pieces**, placed on opposite sides of a 3x3 board.
+* Players take turns moving one piece at a time.
+* A piece can **only move along fold-symmetry lines** of the square (not regular up/down/left/right only).
+* A piece **cannot jump over or capture** another piece.
+* The first player to align all three pieces in a straight line (horizontal, vertical, or diagonal) wins — **except** when that line matches their initial starting formation.
+
+---
+
+## 🛠 Built With
+
+* [SvelteKit](https://kit.svelte.dev/) – Frontend framework for building fast web apps
+* [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid styling
+* [TypeScript](https://www.typescriptlang.org/) – Typed JavaScript for safety and scalability
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# Clone this repository
+git clone https://github.com/your-username/lelempengan.git
+cd lelempengan
 
-# create a new project in my-app
-npx sv create my-app
-```
+# Install dependencies
+npm install
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# Start the development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Visit `http://localhost:5173` in your browser and enjoy the game!
 
-To create a production version of your app:
+---
 
-```bash
-npm run build
-```
+## ✨ Features
 
-You can preview the production build with `npm run preview`.
+* ♟️ Accurate symmetric movement logic based on traditional fold lines
+* 🎯 Valid move hints shown automatically when selecting a piece
+* 🎨 Responsive and stylized interface with warm traditional tones
+* 🧠 Win condition logic with validation to prevent false wins
+* 🔁 Restart and turn indicators built in
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+
+## 💡 Cultural Note
+
+Lelempengan is part of a rich tapestry of traditional games played across Indonesia. By reimagining it for the web, this project aims to preserve and promote local wisdom in a form that younger generations can enjoy and interact with.
+
+> *“Tradition preserved is culture sustained — even in code.”*
+
+---
+
+## 📄 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+* Inspired by the description from [Wikibooks: Permainan Lelempengan](https://id.wikibooks.org/wiki/Permainan_Tradisional_%22Catur%22_di_Indonesia/Lelempengan_%28Jawa_Barat%29)
+* Made with ❤️ by Yogi Anggara
