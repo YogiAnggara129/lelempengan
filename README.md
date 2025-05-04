@@ -29,7 +29,7 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/lelempengan.git
+git clone https://github.com/YogiAnggara129/lelempengan.git
 cd lelempengan
 
 # Install dependencies
